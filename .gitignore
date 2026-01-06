@@ -1,0 +1,14 @@
+# Terraform build directory
+.terraform/
+
+# State files
+*.tfstate
+*.tfstate.backup
+
+# Secrets
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+
+# Optional: lock file (include only if you want shared version pinning)
+#.terraform.lock.hcl
