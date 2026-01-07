@@ -12,3 +12,6 @@
 
 # Optional: lock file (include only if you want shared version pinning)
 #.terraform.lock.hcl
+# Terraform plan output
+tfplan.txt
+tfplan.binary
